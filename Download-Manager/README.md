@@ -3,6 +3,6 @@
 
 <p align = 'center', height = "200px" , width = "400px"> 
 
-<img src = " ">
+<img src = "./images/design.PNG ">
 
 </p>
