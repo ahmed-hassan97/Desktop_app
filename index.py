@@ -2,14 +2,10 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 import sys
-
 from PyQt5.uic import loadUiType
-import urllib.request
-#import pafy
-#import humanize
-
 import os
 from os import path
+
 
 
 ui,_ = loadUiType('main.ui')
@@ -19,12 +15,9 @@ class MainApp(QMainWindow , ui):
         super(MainApp , self).__init__(parent)
         QMainWindow.__init__(self)
         self.setupUi(self)
-        self.InitUI()
-        self.Handel_Buttons()
-		
-		
-		
-		
+
+    
+
 def main():
     app = QApplication(sys.argv)
     window = MainApp()
@@ -32,8 +25,4 @@ def main():
     app.exec_()
 
 if __name__ == '__main__':
-    main()		
-	
-	
-	
-	
+    main()
